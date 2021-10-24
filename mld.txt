@@ -1,0 +1,4 @@
+							MLD
+User (code , nom , prenom , antecedentMedicaux , role , codeO , codeC)
+Ordonnance(codeO , nom , posologie)
+Consultation(codeC , date , constantePrise , ordonance , prestation)
