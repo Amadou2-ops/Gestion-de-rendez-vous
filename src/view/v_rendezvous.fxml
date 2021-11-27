@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.V_rendezvousController">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <AnchorPane prefHeight="70.0" prefWidth="600.0" style="-fx-background-color: #9dc388;">
+               <children>
+                  <Text fill="WHITE" fontSmoothingType="LCD" layoutX="224.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DEMANDE">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Text>
+                  <FontAwesomeIcon fill="WHITE" glyphName="USER" layoutX="154.0" layoutY="49.0" size="4em" wrappingWidth="58.428571701049805" />
+               </children>
+            </AnchorPane>
+            <ButtonBar layoutX="193.0" layoutY="211.0" prefHeight="40.0" prefWidth="200.0" />
+            <DatePicker layoutX="193.0" layoutY="167.0" />
+            <Text fill="#9dc388" fontSmoothingType="LCD" layoutX="153.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-blend-mode: #9dc388;" text="Entrez la date du rendez-vous">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Text>
+            <Button layoutX="461.0" layoutY="319.0" mnemonicParsing="false" onAction="#handlevalider" prefHeight="27.0" prefWidth="58.0" text="valider" />
+            <Button layoutX="118.0" layoutY="319.0" mnemonicParsing="false" onAction="#handleRetour" prefHeight="27.0" prefWidth="58.0" text="retour" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
